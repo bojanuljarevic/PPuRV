@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/CAESAR_LIB/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/CAESAR_LIB/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/CAESAR_LIB/value=/home/rtrk/workspace/caesar11/
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/ROT11_LIB/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/ROT11_LIB/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/ROT11_LIB/value=/home/rtrk/workspace/rot11/
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.202418027/appendContributed=true
