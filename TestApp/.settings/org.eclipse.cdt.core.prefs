@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.941912172/TI_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.941912172/TI_PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.941912172/TI_PATH/value=/home/rtrk/Downloads/c6000_7.4.23/
+environment/project/cdt.managedbuild.config.gnu.exe.debug.941912172/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.941912172/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.2096340391/TI_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.2096340391/TI_PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.2096340391/TI_PATH/value=/home/rtrk/Downloads/c6000_7.4.23
+environment/project/cdt.managedbuild.config.gnu.exe.release.2096340391/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.2096340391/appendContributed=true

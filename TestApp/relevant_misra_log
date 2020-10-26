@@ -1,0 +1,170 @@
+																													********************     #include <stdio.h>     ********************									
+
+
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 11: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code
+
+Prekrsena pravila: 20.9/R
+Ostavljeno
+
+
+																											********************     Komentari tipa /*...*/ su koristeni, tag     ********************
+
+
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 17: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 21: warning: (MISRA-C:2004 5.4/R) A tag name shall be a unique identifier ("Node")
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 24: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 31: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 13: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 17: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 38: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+
+Prekrsena pravila: 2.2/R, 5.4/R
+Rijeseno
+
+																													********************     Pozivi iz dlfcn zaglavlja     ********************
+
+
+"../SinglyLinkedListTest.c", line 13: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("list")
+"../SinglyLinkedListTest.c", line 38: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 38: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 39: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 42: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 43: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 43: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 45: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 45: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 46: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 49: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 50: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 50: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 52: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 52: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 53: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 56: warning: a value of type "void *" cannot be assigned to an entity of type "uint8_t (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 57: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 57: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 59: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 59: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 60: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 63: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *, int_fast32_t)"
+"../SinglyLinkedListTest.c", line 64: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 64: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 66: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 66: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 67: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 70: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *, int_fast32_t, int_fast32_t)"
+"../SinglyLinkedListTest.c", line 71: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 71: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 73: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 73: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 74: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 77: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *, int_fast32_t)"
+"../SinglyLinkedListTest.c", line 78: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 78: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 80: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 80: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 81: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 84: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 85: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 85: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 87: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 87: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 88: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 91: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *, int_fast32_t)"
+"../SinglyLinkedListTest.c", line 92: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 92: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 94: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 94: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 95: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 98: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 99: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 99: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 101: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 101: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 102: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 105: warning: a value of type "void *" cannot be assigned to an entity of type "uint8_t (*)(LinkedList *, int_fast32_t)"
+"../SinglyLinkedListTest.c", line 106: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 106: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 108: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 108: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 109: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 112: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 113: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 113: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 115: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 115: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 116: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 119: warning: a value of type "void *" cannot be assigned to an entity of type "int_fast32_t (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 120: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 120: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 122: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 122: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 123: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 126: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 127: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 127: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 129: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 129: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 130: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 133: warning: a value of type "void *" cannot be assigned to an entity of type "LinkedList *(*)(LinkedList *, LinkedList *)"
+"../SinglyLinkedListTest.c", line 134: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 134: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 136: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 136: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 137: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+"../SinglyLinkedListTest.c", line 140: warning: a value of type "void *" cannot be assigned to an entity of type "void (*)(LinkedList *)"
+"../SinglyLinkedListTest.c", line 141: warning: (MISRA-C:2004 13.1/R) Assignment operators shall not be used in expressions that yield a Boolean value
+"../SinglyLinkedListTest.c", line 141: warning: (MISRA-C:2004 12.2/R) The value of an expression shall be the same under any order of evaluation that the standard permits
+"../SinglyLinkedListTest.c", line 143: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("fputs")
+"../SinglyLinkedListTest.c", line 143: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code ("stderr")
+"../SinglyLinkedListTest.c", line 144: warning: (MISRA-C:2004 20.11/R) The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used
+
+Prekrsena pravila: 5.7/A, 20.9/R, 20.11/R, 13.1/R, 12.2/R
+Ostavljeno
+
+			
+															********************     Ponovno koristenje istih naziva i upotreba inc/dec u istoj liniji sa drugim aritmetickim operacijama    ********************
+
+
+"../SinglyLinkedListTest.c", line 195: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 207: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../SinglyLinkedListTest.c", line 218: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("expected")
+"../SinglyLinkedListTest.c", line 219: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 227: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("current")
+"../SinglyLinkedListTest.c", line 231: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../SinglyLinkedListTest.c", line 241: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("expected")
+"../SinglyLinkedListTest.c", line 242: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 246: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("current")
+"../SinglyLinkedListTest.c", line 250: warning: (MISRA-C:2004 12.13/A) The increment (++) and decrement (--) operators should not be mixed with other operators in an expression
+"../SinglyLinkedListTest.c", line 250: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../SinglyLinkedListTest.c", line 259: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 277: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("expected")
+"../SinglyLinkedListTest.c", line 278: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 282: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("current")
+"../SinglyLinkedListTest.c", line 286: warning: (MISRA-C:2004 12.13/A) The increment (++) and decrement (--) operators should not be mixed with other operators in an expression
+"../SinglyLinkedListTest.c", line 286: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../SinglyLinkedListTest.c", line 296: warning: (MISRA-C:2004 12.13/A) The increment (++) and decrement (--) operators should not be mixed with other operators in an expression
+"../SinglyLinkedListTest.c", line 296: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+"../SinglyLinkedListTest.c", line 321: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("expected")
+"../SinglyLinkedListTest.c", line 323: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("i")
+"../SinglyLinkedListTest.c", line 327: warning: (MISRA-C:2004 12.1/A) Limited dependence should be placed on C's operator precedence rules in expressions
+"../SinglyLinkedListTest.c", line 344: warning: (MISRA-C:2004 5.7/A) No identifier name should be reused ("current")
+"../SinglyLinkedListTest.c", line 349: warning: (MISRA-C:2004 10.1/R) The value of an expression of integer type shall not be implicitly converted to a different underlying type if the expression is not constant and is a function argument
+[main.c]
+
+Prekrsena pravila: 5.7/A, 10.1/R, 12.13/A
+Rijeseno: 12.13/R
+Ostavljeno: 5.7/A, 10.1/R (konverzije prilikom TEST_ASSERT_EQUAL)
+
+																						********************     Ista upozorenja kao u prva 2. bloka ovog dokumenta    ********************
+
+														
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 11: warning: (MISRA-C:2004 20.9/R) The input/output library <stdio.h> shall not be used in production code
+
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 17: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 21: warning: (MISRA-C:2004 5.4/R) A tag name shall be a unique identifier ("Node")
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 24: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"/home/rtrk/Downloads/c6000_7.4.23/include/SinglyLinkedList.h", line 31: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 13: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 17: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments
+"../SinglyLinkedListTest.h", line 38: warning: (MISRA-C:2004 2.2/R) Source code shall only use /* ... */ style comments

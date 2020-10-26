@@ -13,28 +13,40 @@
 #include <inttypes.h>
 #include <stdbool.h>
 
-typedef struct Node{
+
+/* Element of the linked list */
+struct Node{
 	int_fast32_t data;
 	struct Node* next;
-} Node;
+};
 
 
+/* Linked list structure */
 typedef struct {
 	struct Node* head;
 	struct Node* tail;
 } LinkedList;
 
 
+/* Basic operations on a singly linked list; further explanations in the source file */
 void ListInit(LinkedList* list);
 void ListDestroy(LinkedList* list);
-bool ListIsEmpty(LinkedList* list);
-void ListInsert(LinkedList* list, int_fast32_t value);
-void ListDelete(LinkedList* list);
+void ListReset(LinkedList* list);
+uint8_t ListIsEmpty(LinkedList* list);
+void ListPush(LinkedList* list, int_fast32_t value);
+void ListInsert(LinkedList* list, int_fast32_t value, int_fast32_t position);
+void ListAppend(LinkedList* list, int_fast32_t value);
+void ListPopFront(LinkedList* list);
+void ListDelete(LinkedList* list, int_fast32_t value);
+void ListPopBack(LinkedList* list);
+uint8_t ListSearch(LinkedList* list, int_fast32_t value);
 void ListDump(LinkedList* list);
-void ListSize(LinkedList* list);
+int_fast32_t ListSize(LinkedList* list);
 void NodeSwap(struct Node *a, struct Node *b);
 void ListSort(LinkedList* list);
-void MergeLists(LinkedList* list1, LinkedList* list2);
+struct Node* MinNode(struct Node** const node1, struct Node** const node2);
+LinkedList* MergeLists(LinkedList* list1, LinkedList* list2);
+void FreeMerged(LinkedList* list);
 
 
 #endif /* SINGLYLINKEDLIST_H_ */

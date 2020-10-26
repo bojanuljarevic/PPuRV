@@ -10,31 +10,42 @@
 
 #include "SinglyLinkedList.h"
 
-// "constructor" and "destructor" for unity framework
+/* "constructor" and "destructor" for unity framework */
 void setUp(void);
 void tearDown(void);
 
-// Shared object runtime linking handlers
+/* Shared object runtime linking handlers */
 void* handle;
 void (*listInit)(LinkedList* list);
 void (*listDestroy)(LinkedList* list);
 uint8_t (*listIsEmpty)(LinkedList* list);
-void (*listInsert)(LinkedList* list, int_fast32_t value);
-void (*listDelete)(LinkedList* list);
+void (*listPush)(LinkedList* list, int_fast32_t value);
+void (*listInsert)(LinkedList* list, int_fast32_t value, int_fast32_t position);
+void (*listAppend)(LinkedList* list, int_fast32_t value);
+void (*listPopFront)(LinkedList* list);
+void (*listDelete)(LinkedList* list, int_fast32_t value);
+void (*listPopBack)(LinkedList* list);
+uint8_t (*listSearch)(LinkedList* list, int_fast32_t value);
 void (*listDump)(LinkedList* list);
 int_fast32_t (*listSize)(LinkedList* list);
-void (*nodeSwap)(struct Node *a, struct Node *b);
 void (*listSort)(LinkedList* list);
-void (*mergeLists)(LinkedList* list1, LinkedList* list2);
+LinkedList* (*mergeLists)(LinkedList* list1, LinkedList* list2);
+void (*freeMerged)(LinkedList *list);
 void LoadListLibrary(void);
 void CloseListLibrary(void);
 
-// Functions for unit testing the shared library functions
+
+/* Functions for unit testing the shared library functions */
 void ListIsEmptyAfterCreation(void);
-void ListIsNotEmptyAfterInsertion(void);
-void ListIsEmptyAfterDeletion(void);
+void ListPushAndPopFrontTest(void);
+void ListAppendAndPopBackTest(void);
+void ListAppendTest(void);
 void ListSortTest(void);
+void ListArbitraryInsertionTest(void);
+void ListSearchTest(void);
+void ListArbitraryDeletionTest(void);
 void ListIsEmptyAfterDestruction(void);
+void MergeSortedTest(void);
 
 
 #endif /* SINGLYLINKEDLISTTEST_H_ */
